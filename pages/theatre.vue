@@ -1,17 +1,14 @@
 <template>
   <div>
-    I'm in video.vue
-    <nuxt-child />
+    <h1>In Theatre</h1>
   </div>
 </template>
 
 <script>
   export default {
-
-    
+    layout: 'theatre'
   }
 </script>
 
-<style lang="scss" scoped>
-
+<style scoped>
 </style>
